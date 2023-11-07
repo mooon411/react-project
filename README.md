@@ -9,7 +9,7 @@ npx create-react-app .
 ## 트러블 슈팅
 
 <details>
-<summary>Whitespace 에러</summary>
+<summary>Whitespace ERROR (화이트스페이스 에러)</summary>
 유닉스 시스템에서는 한 줄의 끝이 LF(Line Feed)로 이루어지는 반면,
 윈도우에서는 줄 하나가 CR(Carriage Return)와 LF(Line Feed), 즉 CRLF로 이루어지는데 Git이 이 둘 중 어느 쪽을 선택할지 혼란이 온 것입니다.   
    
