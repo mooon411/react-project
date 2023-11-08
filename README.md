@@ -18,6 +18,7 @@ lenis.js란 javascript로 작성 된 오픈소스 웹 프레임 워크입니다.
 1. 리액트 설치
 2. git에 업로드
 3. [lenis 사이트](https://github.com/studio-freight/lenis)
+4. 빌드하기 `npm run build`
 
 ## 설치
 
@@ -39,3 +40,11 @@ lenis.js란 javascript로 작성 된 오픈소스 웹 프레임 워크입니다.
 `git config core.autocrlf true` // 해당 프로젝트에만 적용
    
 </details>
+
+## firebase 사용하기
+
+1. 새 프로젝트 만들기 [firebase](https://console.firebase.google.com/project/react-project1108/overview?hl=ko)
+2. 터미널에서 CLI 설치 `npm install -g firebase-tools`
+3. 구글 로그인 `firebase login`
+4. 초기화 `firebase init`
+5. 호스팅 셋업 후 build
